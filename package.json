@@ -1,0 +1,22 @@
+{
+  "name": "ii-kanji-no-downloader",
+  "description": "ii kanji no cli downloader",
+  "version": "0.0.0",
+  "author": "nbqx",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nbqx/ii-kanji-no-downloader.git"
+  },
+  "homepage": "https://github.com/nbqx/ii-kanji-no-downloader",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ii-kanji-no-progress-bar": "git://github.com/nbqx/ii-kanji-no-progress-bar.git"
+  },
+  "devDependencies": {
+    "request": "^2.48.0"
+  }
+}
